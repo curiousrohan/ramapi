@@ -9,12 +9,12 @@ To use ramapi in a project::
 This will import the ramapi package.
 
 To use the Base class, Character Class or any other class::
-	from ramapi import Base
 
+	from ramapi import Base
 	from ramapi import Character ::
 
 To import all the classes::
 
-	from ramapi import * :
+	from ramapi import * 
 
 
