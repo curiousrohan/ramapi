@@ -18,6 +18,8 @@ ramapi
 
 Python implementation for the Rick and Morty API https://rickandmortyapi.com/
 
+Only works for Python3
+
 
 * Free software: MIT license
 * Documentation: https://ramapi.readthedocs.io.
@@ -25,6 +27,7 @@ Python implementation for the Rick and Morty API https://rickandmortyapi.com/
 
 Features
 --------
+
 All methods returns json
 
 Base features:
