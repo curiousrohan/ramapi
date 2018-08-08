@@ -28,6 +28,7 @@ Character/Location/Episode Class commands::
 
 	ramapi.Character.get_all() 
 	ramapi.Character.get_page() //Only available for character class
+
 	ramapi.Character.get()
 	ramapi.Character.filter()
 	ramapi.Character.schema()
