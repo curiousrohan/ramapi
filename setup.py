@@ -21,7 +21,7 @@ setup(
     author="Rohan Hazra",
     author_email='rohanhazra4@gmail.com',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
