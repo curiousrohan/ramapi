@@ -30,15 +30,15 @@ Features
 
 All methods returns json
 
-Base features:
-	- api_info() returns api information
-	- schema() returns the json outline
+Base class features:
+	- api_info() : api information
+	- schema()   : json outline
 
-Character,Location,Episode featutes:
-	- get_all() returns all values
-	- get() Takes a perimeter and returns a value
-	- filter() Returns filtered results
-	- schema() Returns json outline
+Character,Location,Episode class featutes:
+	- get_all()	 : All information in paginated way
+	- get() 	 : Information regarding the passed parameter
+	- filter() 	 : Filtered results
+	- schema()   : json outline
 
 For detailed information and usage instrustions:
 	- Read Docs at https://ramapi.readthedocs.io
