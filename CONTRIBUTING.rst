@@ -76,10 +76,9 @@ Ready to contribute? Here's how to set up `ramapi` for local development.
 
    Now you can make your changes locally.
 
-5. When you're done making changes, check that your changes pass flake8 and the
+5. When you're done making changes, check that your changes pass the
    tests, including testing other Python versions with tox::
 
-    $ flake8 ramapi tests
     $ python setup.py test or py.test
     $ tox
 
