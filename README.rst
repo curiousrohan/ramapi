@@ -40,7 +40,7 @@ Character,Location,Episode class featutes:
 	- filter() 	 : Filtered results
 	- schema()   : json outline
 
-For detailed information and usage instrustions:
+For detailed information and usage instructions:
 	- Read Docs at https://ramapi.readthedocs.io
 	- Visit official API Docs https://rickandmortyapi.com/documentation
 
