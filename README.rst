@@ -34,13 +34,13 @@ Base class features:
 	- api_info() : api information
 	- schema()   : json outline
 
-Character,Location,Episode class featutes:
+Character,Location,Episode class features:
 	- get_all()	 : All information in paginated way
 	- get() 	 : Information regarding the passed parameter
 	- filter() 	 : Filtered results
 	- schema()   : json outline
 
-For detailed information and usage instrustions:
+For detailed information and usage instructions:
 	- Read Docs at https://ramapi.readthedocs.io
 	- Visit official API Docs https://rickandmortyapi.com/documentation
 
