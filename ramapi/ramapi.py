@@ -30,7 +30,7 @@ class Character():
 
 	def filter(**kwargs):
 		for value in kwargs:
-				kwargs[value]=value+"="+kwargs[value]
+			kwargs[value] += value+"="
 		query_url='&'.join([values for values in kwargs.values()])
 		final_url=character_url+"?"+query_url
 		return requests.get(final_url).json()
@@ -53,7 +53,7 @@ class Location():
 
 	def filter(**kwargs):
 		for value in kwargs:
-				kwargs[value]=value+"="+kwargs[value]
+			kwargs[value] += value+"="
 		query_url='&'.join([values for values in kwargs.values()])
 		final_url=location_url+'?'+query_url
 		return requests.get(final_url).json()
@@ -77,7 +77,7 @@ class Episode():
 
 	def filter(**kwargs):
 		for value in kwargs:
-				kwargs[value]=value+"="+kwargs[value]
+			kwargs[value] += value+"="
 		query_url='&'.join([values for values in kwargs.values()])
 		final_url=episode_url+'?'+query_url
 		return requests.get(final_url).json()
