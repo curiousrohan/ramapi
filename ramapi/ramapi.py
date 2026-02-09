@@ -70,6 +70,9 @@ class Episode():
 
 	def get_all():
 		return requests.get(episode_url).json()
+	
+	def get_page(number):
+		return requests.get(episode_url+'?page='+str(number)).json()
 
 	def get(id=None):
 		if id==None:
