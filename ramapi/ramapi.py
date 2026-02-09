@@ -43,6 +43,9 @@ class Location():
 
 	def get_all():
 		return requests.get(location_url).json()
+	
+	def get_page(number):
+		return requests.get(location_url+'?page='+str(number)).json()
 
 	def get(id=None):
 		if id==None:
